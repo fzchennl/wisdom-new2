@@ -59,7 +59,7 @@ public class ChannelService implements IChannelService {
     @Resource(name = "mqSendMsgService")
     private IMqSendMsgService mqSendMsgService;
 
-
+    //c
     @Override
     public String InChannel(Map<String, String> msgHead, Map<String, String> msgBody) throws Exception {
         Map response = new HashMap<String, String>();
